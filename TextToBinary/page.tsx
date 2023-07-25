@@ -8,7 +8,7 @@ const TextToBinary = () => {
 
     const handleBinaryConversion = (string: string) => {
         let binaryOutput = ''
-        for (var i = 0; i < string.length; i++) {
+        for (let i = 0; i < string.length; i++) {
             // charCodeAt(0) will return returns an integer representing the UTF-16 code unit at index 0
 
             // toString(2) will convert the number into binary (radix 2)
@@ -23,7 +23,7 @@ const TextToBinary = () => {
     };
 
     return (
-        <div className="flex flex-col justify-around items-center h-full">
+        <div className="flex flex-col justify-around items-center h-full gap-12">
             <h1 className="text-3xl font-bold">Text to Binary</h1>
             <div className="flex flex-col gap-2">
                 <div className="flex justify-between items-center">

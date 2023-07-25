@@ -55,7 +55,7 @@ const BinaryToText = () => {
     };
 
     return (
-        <div className="flex flex-col justify-around items-center h-full">
+        <div className="flex flex-col justify-around items-center h-full gap-12">
             <h1 className="text-3xl font-bold">Binary to Text</h1>
             <div className="flex flex-col gap-2">
                 <div className="flex justify-between items-center">
