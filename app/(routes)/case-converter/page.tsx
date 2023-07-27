@@ -17,7 +17,7 @@ const caseTypes = [
     }
 ]
 const CaseConverter = () => {
-    const [textEntered, setTextEntered] = useState('')
+    const [textEntered, setTextEntered] = useState('a')
     const [selectedCase, setSelectedCase] = useState('UPPERCASE')
 
     const handleTyping = (event: React.ChangeEvent<HTMLTextAreaElement>) => {
