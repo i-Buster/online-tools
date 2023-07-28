@@ -7,6 +7,7 @@ export default function Home() {
         <Link href='/binary-to-text'>Binary to Text</Link>
         <Link href='/case-converter'>Case Converter</Link>
         <Link href='/word-replacer'>Word Replacer</Link>
+        <Link href='/password-generator'>Password Generator</Link>
     </main>
   )
 }
