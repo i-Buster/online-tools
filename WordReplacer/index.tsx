@@ -39,7 +39,7 @@ const WordReplacer = () => {
                             type="text"
                             id="inputWord"
                             name="inputWord"
-                            className="rounded-md px-1 bg-indigo-100 outline-1 outline"
+                            className="rounded-md px-1 bg-indigo-100 outline-1 outline-none outline-gray-100"
                             value={wordToReplace}
                             onChange={e => setWordToReplace(e.target.value)}
                         />
@@ -54,7 +54,7 @@ const WordReplacer = () => {
                             type="text"
                             id="outputWord"
                             name="outputWord"
-                            className="rounded-md px-1 bg-indigo-100 outline-1 outline"
+                            className="rounded-md px-1 bg-indigo-100 outline-1 outline-none outline-gray-100"
                             value={wordToReplaceWith}
                             onChange={e => setWordToReplaceWith(e.target.value)}
                         />
