@@ -6,6 +6,7 @@ export default function Home() {
         <Link href='/text-to-binary'>Text to Binary</Link>
         <Link href='/binary-to-text'>Binary to Text</Link>
         <Link href='/case-converter'>Case Converter</Link>
+        <Link href='/word-replacer'>Word Replacer</Link>
     </main>
   )
 }
