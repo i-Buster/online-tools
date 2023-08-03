@@ -72,11 +72,17 @@ const PasswordGenerator = () => {
                 </button>
                 <div className="mt-4">
                     {password && (
-                        <textarea
-                            className="border rounded-md px-3 py-2 w-full mt-2"
-                            value={password}
-                            readOnly
-                        />
+                        <>
+                            <textarea
+                                className="border rounded-md px-3 py-2 w-full mt-2 resize-none mb-2"
+                                value={password}
+                                readOnly
+                            />
+                            <button className="button-primary" onClick={() => { navigator.clipboard.writeText(password) }}
+                            >
+                                Copy Password
+                            </button>
+                        </>
                     )}
                 </div>
             </div>
