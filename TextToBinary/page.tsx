@@ -34,7 +34,7 @@ const TextToBinary = () => {
                         Copy content
                     </button>
                 </div>
-                <textarea id="textInput" name="textInput" value={textEntered} onChange={handleTyping} rows={4} cols={50} autoFocus={true} placeholder="Enter binary" className="p-2 rounded-lg">
+                <textarea id="textInput" name="textInput" value={textEntered} onChange={handleTyping} rows={4} cols={50} autoFocus={true} placeholder="Enter binary" className="p-2 rounded-lg resize-none">
                 </textarea>
             </div>
             <div className="flex flex-col gap-2">
@@ -45,7 +45,7 @@ const TextToBinary = () => {
                         Copy content
                     </button>
                 </div>
-                <textarea id="convertedBinary" name="convertedBinary" value={convertedBinary} readOnly rows={4} cols={50} className="p-2 rounded-lg" placeholder="Binary data from text">
+                <textarea id="convertedBinary" name="convertedBinary" value={convertedBinary} readOnly rows={4} cols={50} className="p-2 rounded-lg resize-none" placeholder="Binary data from text">
                 </textarea>
             </div>
         </div>

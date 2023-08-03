@@ -57,7 +57,7 @@ const CaseConverter = () => {
                         Copy content
                     </button>
                 </div>
-                <textarea id="textInput" name="textInput" value={textEntered} onChange={handleTyping} rows={4} cols={50} autoFocus={true} placeholder="Enter the text you want to convert" className="p-2 rounded-lg">
+                <textarea id="textInput" name="textInput" value={textEntered} onChange={handleTyping} rows={4} cols={50} autoFocus={true} placeholder="Enter the text you want to convert" className="p-2 rounded-lg resize-none">
                 </textarea>
             </div>
             <div>
@@ -73,7 +73,7 @@ const CaseConverter = () => {
                         Copy content
                     </button>
                 </div>
-                <textarea id="outputText" name="outputText" value={renderSwitch(selectedCase, textEntered)} readOnly rows={4} cols={50} className="p-2 rounded-lg" placeholder="Converted text">
+                <textarea id="outputText" name="outputText" value={renderSwitch(selectedCase, textEntered)} readOnly rows={4} cols={50} className="p-2 rounded-lg resize-none" placeholder="Converted text">
                 </textarea>
             </div>
         </div>

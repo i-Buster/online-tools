@@ -26,7 +26,7 @@ const WordReplacer = () => {
                         Copy content
                     </button>
                 </div>
-                <textarea id="textInput" name="textInput" value={textEntered} onChange={handleTyping} rows={4} cols={50} autoFocus={true} placeholder="Enter the content" className="p-2 rounded-lg bg-indigo-100 outline-1 outline">
+                <textarea id="textInput" name="textInput" value={textEntered} onChange={handleTyping} rows={4} cols={50} autoFocus={true} placeholder="Enter the content" className="p-2 rounded-lg bg-indigo-100 outline-1 outline resize-none">
                 </textarea>
             </div>
             <div className="flex gap-3 flex-col w-[300px]">
@@ -69,7 +69,7 @@ const WordReplacer = () => {
                         Copy content
                     </button>
                 </div>
-                <textarea id="outputText" name="outputText" value={convertedString} readOnly rows={4} cols={50} className="p-2 rounded-lg bg-indigo-100 outline-1 outline">
+                <textarea id="outputText" name="outputText" value={convertedString} readOnly rows={4} cols={50} className="p-2 rounded-lg bg-indigo-100 outline-1 outline resize-none">
                 </textarea>
             </div>
         </div>
